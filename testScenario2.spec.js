@@ -1,6 +1,6 @@
 const {test, expect} = require('@playwright/test')
 
-test('Test Scenario 1', async ({page}) => {
+test('Test Scenario 2', async ({page}) => {
   const textEntered = "Welcome to TestMu AI";
     await page.goto('https://www.testmuai.com/selenium-playground/');
     await page.getByRole('link', { name: 'Drag & Drop Sliders' }).click();
